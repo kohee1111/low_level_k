@@ -51,3 +51,8 @@ again :
 0x100 = 256 
 0x1000 = 4096 
 0x10000 = 65536
+I have found a memory alignment rules :
+data byte  = n 
+memory address % n = 0 ; and this address will be devisible for n byte  
+for example , mem_addr is 0x2000  which is devisible by 4  our data is also 4 byte ...so this will be aligned otherwise it 
+will be mis-aligned and this will cause serious performance issue or sometimes crash 
