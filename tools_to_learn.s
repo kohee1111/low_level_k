@@ -4,3 +4,5 @@
 4 => wireshark 
 5 => Glances 
 6 => Objdump / Readelf / Strings 
+7 => cppcheck , FlawFinder  , splint
+8 => RISCV ASM + qemu (final)
